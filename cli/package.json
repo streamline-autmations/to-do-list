@@ -1,0 +1,11 @@
+{
+  "name": "taskhub-cli",
+  "version": "0.1.0",
+  "description": "Command-line client for TaskHub, the shared task list for you and your AI agents.",
+  "type": "module",
+  "bin": { "taskhub": "./taskhub.mjs" },
+  "files": ["taskhub.mjs"],
+  "engines": { "node": ">=18" },
+  "license": "UNLICENSED",
+  "private": true
+}
