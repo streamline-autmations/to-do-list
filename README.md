@@ -78,7 +78,3 @@ docs/               SETUP, API, CHATGPT-WORK
 - Agents and the CLI: a bearer token from `TASKHUB_API_TOKEN`. You can set two comma-separated tokens to rotate without downtime.
 - Cookie-authenticated writes are checked against the request's Origin (CSRF). Responses are `no-store`.
 - Secrets live in environment variables and `~/.taskhub/config.json` (mode 600). `.gitignore` excludes every `.env*` file except `.env.example`.
-
----
-
-Designed & built by [Streamline Automations](https://streamline-automations.co.za/).
